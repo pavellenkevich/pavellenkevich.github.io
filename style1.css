@@ -32,7 +32,7 @@ div.item2{
 	width: 45%;
 	text-align: right;
 	background: red;
-	background-image: url(me.jpg);
+	background-image: url(me.png);
 	background-size: auto 100%;
 	background-position: center;
 }
