@@ -40,8 +40,9 @@
 		justify-content: center;
 	}
 	div.item2{
+		display: none;
 		height: 0%;
-		width: 100%;
+		width: 0%;
 		text-align: right;
 		background-image: url(me.png);
 		background-size: 100%;
