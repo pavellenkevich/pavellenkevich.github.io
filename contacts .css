@@ -32,7 +32,7 @@ html, body {
 a{text-decoration: none;}
 a.sec{
 	font-size: 20px;
-	font-weight: 100;
+	font-weight: lighter;
 	margin-top: 3px;
 }
 div.container{
