@@ -1,3 +1,9 @@
+@font-face { 
+  font-family: "Blogger Sans";                
+  src: url('../fonts/Blogger Sans.ttf')  format('truetype'),                /* Старые Safari, Android, iOS */    /* Древние Safari, iOS, Android */ 
+  font-weight: normal; 
+  font-style: normal; 
+}
 *{
 	margin: 0;
   	padding: 0;
