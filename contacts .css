@@ -1,7 +1,19 @@
 @font-face { 
-  font-family: "Blogger Sans";                
-  src: url('../fonts/Blogger Sans.ttf')  format('truetype'),                /* Старые Safari, Android, iOS */    /* Древние Safari, iOS, Android */ 
+  font-family: 'Blogger Sans';                
+  src: url('../fonts/Blogger Sans-Bold.ttf')  format('truetype');                /* Старые Safari, Android, iOS */    /* Древние Safari, iOS, Android */ 
+  font-weight: bold; 
+  font-style: normal; 
+}
+@font-face { 
+  font-family: 'Blogger Sans';                
+  src: url('../fonts/Blogger Sans.ttf')  format('truetype');                /* Старые Safari, Android, iOS */    /* Древние Safari, iOS, Android */ 
   font-weight: normal; 
+  font-style: normal; 
+}
+@font-face { 
+  font-family: 'Blogger Sans';                
+  src: url('../fonts/Blogger Sans-Light.ttf')  format('truetype');                /* Старые Safari, Android, iOS */    /* Древние Safari, iOS, Android */ 
+  font-weight: lighter; 
   font-style: normal; 
 }
 *{
@@ -57,19 +69,20 @@ h1{
 	letter-spacing: 5px;
 	line-height: 1;
 	margin-bottom: 35px;
+	font-weight: bold;
 }
 h1:hover{
 	text-shadow: -7px -5px 0px #ff9966;
 }
 h3{
 	font-size: 22px;
-	font-weight: 400;
+	font-weight: normal;
 	letter-spacing: 2px;
 	margin-bottom: 25px;
 }
 p{
 	font-size: 20px;
-	font-weight: 100;
+	font-weight: lighter;
 	margin-top: 10px;
 }
 p.last{margin-bottom: 45px;}
@@ -79,11 +92,11 @@ div.cont{
 }
 h4.name{
 	font-size: 28px;
-	font-weight: 400;
+	font-weight: normal;
 }
 h5.name{
 	font-size: 20px;
-	font-weight: 100;
+	font-weight: lighter;
 	margin-top: 3px;
 }
 a#portf{
