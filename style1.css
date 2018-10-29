@@ -1,16 +1,21 @@
 @font-face { 
   font-family: 'Blogger Sans';                
-  src: url('../fonts/Blogger Sans-Bold.ttf')  format('truetype');                /* Старые Safari, Android, iOS */    /* Древние Safari, iOS, Android */ 
+  src: url('fonts/Blogger Sans-Bold.ttf')  format('truetype');                /* Старые Safari, Android, iOS */    /* Древние Safari, iOS, Android */ 
   font-weight: bold; 
+  font-style: normal; }
+ @font-face { 
+  font-family: 'Blogger Sans';                
+  src: url('fonts/Blogger Sans-Medium.ttf')  format('truetype');                /* Старые Safari, Android, iOS */    /* Древние Safari, iOS, Android */ 
+  font-weight: medium; 
   font-style: normal; }
 @font-face { 
   font-family: 'Blogger Sans';                
-  src: url('../fonts/Blogger Sans.ttf')  format('truetype');                /* Старые Safari, Android, iOS */    /* Древние Safari, iOS, Android */ 
+  src: url('fonts/Blogger Sans.ttf')  format('truetype');                /* Старые Safari, Android, iOS */    /* Древние Safari, iOS, Android */ 
   font-weight: normal;
   font-style: normal; }
 @font-face { 
   font-family: 'Blogger Sans';                
-  src: url('../fonts/Blogger Sans-Light.ttf')  format('truetype');                /* Старые Safari, Android, iOS */    /* Древние Safari, iOS, Android */ 
+  src: url('fonts/Blogger Sans-Light.ttf')  format('truetype');                /* Старые Safari, Android, iOS */    /* Древние Safari, iOS, Android */ 
   font-weight: lighter; 
   font-style: normal; }
 
@@ -56,18 +61,19 @@
 		letter-spacing: 5px;
 		line-height: 1;
 		margin-bottom: 15px;
+		font-weight: bold;
 	}
 	h1#name:hover{text-shadow: -7px -5px 0px #ff9966;}
-	h3{
+	h3.do{
 		display: inline-block;
 		font-size: 28px;
-		margin-right: 20px;
+		margin-right: 8px;
 		padding-bottom: 22px;
-		font-weight: normal;
+		font-weight: medium;
 		letter-spacing: 2px;
 	}
-	p{
-		font-size: 20px;
+	p.text{
+		font-size:20px;
 		font-weight: lighter;
 		font-family: "Blogger Sans";
 	}
