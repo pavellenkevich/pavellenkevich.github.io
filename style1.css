@@ -24,7 +24,6 @@
 	}
 	html, body {
 	  	width: 100%;
-
 	  	background: #fff;
 	}
 	div.container{
@@ -32,7 +31,7 @@
 	    flex-direction: column;
 	    justify-content: center;
 	    align-items: center;
-	    height: 100vh;
+	    max-height: 100vh;
 	}
 	div.item1{
 		width: 100%;
