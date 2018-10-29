@@ -41,8 +41,6 @@
 	}
 	div.item2{
 		display: none;
-		height: 0%;
-		width: 0%;
 		text-align: right;
 		background-image: url(e.png);
 		background-size: 100%;
@@ -142,7 +140,7 @@
 		width: 35%;
 		text-align: right;
 		background: red;
-		background-image: url(me.png);
+		background-image: url(m.png);
 		background-size: auto 100%;
 		background-position: center;
 	}
