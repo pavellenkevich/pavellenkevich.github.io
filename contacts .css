@@ -50,9 +50,9 @@
 	div#photo{
 		height: 100vh;
 		text-align: left;
-		background-image: url('me1.jpg');
+		background-image: url('me1.png');
 		background-size: auto 100%;
-		background-position: center;
+		background-position: left;
 		background-repeat: no-repeat;
 		//background: red; 
 	}
@@ -60,7 +60,7 @@
 
 	h1.name{
 		font-size: 90px;
-		text-shadow: 7px 5px 0 #ff9966;
+		text-shadow: 7px 5px 0 #58831f;
 		text-transform: uppercase;
 		letter-spacing: 5px;
 		line-height: 1;
@@ -68,7 +68,7 @@
 		font-weight: bold;
 	}
 	h1.name.name:hover{
-		text-shadow: -7px -5px 0px #ff9966;
+		text-shadow: -7px -5px 0px #58831f;
 	}
 	h3.name{
 		display: inline-;
@@ -98,9 +98,11 @@
 		margin-top: 3px;
 		color: #fff;
 	}
-	h4.name:hover{text-decoration: none;
-		color: #fff;}
-	h5.name:hover{text-decoration: none;}
+	a.name:hover{text-decoration: #fff;
+		color: #fff;
+		
+	}
+	div.cont:hover h4.name{text-shadow: 2px 2px 0 #58831f;}
 	a#portf{
 		color: #fff;
 		font-size: 22px;
