@@ -56,14 +56,14 @@
 	}
 	h1#name{
 		font-size: 100px;
-		text-shadow: 7px 5px 0 #ff9966;
+		text-shadow: 7px 5px 0 #ff7c47;
 		text-transform: uppercase;
 		letter-spacing: 5px;
 		line-height: 1;
 		margin-bottom: 15px;
 		font-weight: bold;
 	}
-	h1#name:hover{text-shadow: -7px -5px 0px #ff9966;}
+	h1#name:hover{text-shadow: -7px -5px 0px #ff7c47;}
 	h3.do{
 		display: inline-block;
 		font-size: 28px;
@@ -81,7 +81,7 @@
 	a#but{
 		display: inline-block;
 		border-radius: 5px;
-		box-shadow: 7px 6px 0 #ff9966;
+		box-shadow: 7px 6px 0 #ff7c47;
 		padding: 18px 60px;
 		background: #fff;
 		color: #1d1d1d;
@@ -92,7 +92,7 @@
 		text-decoration: none;
 	}
 	a#but:hover{
-		box-shadow: -7px -6px 0px #ff9966;
+		box-shadow: -7px -6px 0px #ff7c47;
 	}
 	a#portf{
 		color: #fff;
